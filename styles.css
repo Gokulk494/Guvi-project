@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    background-color: #afbf51;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* New styles for Logout, Login, and Register buttons */
+.logout-button, .login-button, .register-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.logout-button:hover, .login-button:hover, .register-button:hover {
+    background-color: #c82333;
+}
